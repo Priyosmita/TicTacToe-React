@@ -1,0 +1,23 @@
+.hand {
+    cursor: pointer;
+    background-color: rgb(181, 232, 242);
+    height: 50px;
+    width: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 100px;
+    border: 3px solid #35629d;
+    font-family: Single Day;
+    font-size: 35px;
+    color: #397ca6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        background-color: rgb(251, 249, 152);
+    }
+}

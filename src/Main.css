@@ -1,0 +1,109 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background-color: #2c3e50; */
+  background-image: url('https://i.pinimg.com/564x/5d/35/15/5d35153754313f05b4443444bbb5891c.jpg');
+  /* background-repeat: no-repeat; */
+  color: #ecf0f1;
+}
+
+.app {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1 {
+  font-family: Single Day;
+  font-size: 200px;
+  margin-left: 60px;
+  margin-bottom: 60px;
+  margin-top: -120px;
+  color: #3498db;
+}
+
+.mode-toggle {
+  margin-bottom: 20px;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3498db;
+  border: 3px solid #2c3e50;
+  color: #ecf0f1;
+  cursor: pointer;
+  margin: 1px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    background-color: #2980b9;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.status {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ecf0f1;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+  margin-bottom: 20px;
+}
+
+.board-row {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.reset-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #2ecc71;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #27ae60;
+  }
+}
+
+.hand1 {
+  cursor: pointer;
+  background-color: rgb(242, 181, 219);
+  height: 100px;
+  width: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 1px;
+  margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 100px;
+  border: 3px solid rgb(201, 89, 193);
+  font-family: Single Day;
+  font-size: 50px;
+  color: #b424b1;
+}
+
+

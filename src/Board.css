@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    border-bottom: 200px;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: 3px solid rgb(249, 125, 9);
+    border-style: dashed;
+    background-color:  rgb(243, 180, 121);
+    &:hover {
+        background-color: rgb(255, 220, 163);
+    }
+}
+
+.x {
+    color: rgb(255, 242, 0); /* Change color for 'X' */
+    font-family: Single Day;
+    font-size: 70px;
+  }
+  
+.o {
+    color: rgb(246, 82, 82); /* Change color for 'O' */
+    font-family: Single Day;
+    font-size: 70px;
+  }
